@@ -60,7 +60,7 @@ except Exception:
     sys.exit(2)
 
 log.info("Initialization complete")
-log.debug(f"Listening at http://da.gd")
+log.debug(f"Listening at http://{host}:{port}")
 log.debug(f"Public URL prefix is {public_url}")
 
 try:
